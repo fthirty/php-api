@@ -121,10 +121,10 @@ $data = json_encode($data);
       DELETE to remove an entity.
 
 - **$content-type** can be set to
-	
-	application/json.
+  
+  application/json.
 
-	application/x-www-form-urlencoded
+  application/x-www-form-urlencoded
 
 ## Requirements
 
@@ -186,7 +186,7 @@ $contact_json = array(
         "value"=>"footballer",
         "type"=>"SYSTEM"
     ),
-	array(
+  array(
         "name"=>"address",
         "value"=>json_encode($address),
         "type"=>"SYSTEM"
@@ -198,16 +198,16 @@ $contact_json = array(
     ),
     array(
         "name"=>"TeamNumbers",  //This is custom field which you should first define in custom field region.
-				//Example - created custom field : http://snag.gy/kLeQ0.jpg
+        //Example - created custom field : http://snag.gy/kLeQ0.jpg
         "value"=>"5",
         "type"=>"CUSTOM"
     ),
     array(
         "name"=>"Date Of Joining",
-        "value"=>"1438951923",		// This is epoch time in seconds.
+        "value"=>"1438951923",    // This is epoch time in seconds.
         "type"=>"CUSTOM"
     )
-	
+  
   )
 );
 
