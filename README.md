@@ -69,12 +69,12 @@ Table of contents
 
 ## Intro
 
-1. Fill in your **AGILE_DOMAIN**, **AGILE_USER_EMAIL**, **AGILE_REST_API_KEY** in [**curlwrap_v2.php**](https://github.com/agilecrm/php-api/blob/master/CurlLib/curlwrap_v2.php).
+1. Fill in your **FTHIRTY_DOMAIN**, **FTHIRTY_USER_EMAIL**, **FTHIRTY_REST_API_KEY** in [**curlwrap_v2.php**](https://github.com/fthirty/php-api/blob/master/CurlLib/curlwrap_v2.php).
 
-![Finding domain name, email and api key](https://raw.githubusercontent.com/agilecrm/php-api/master/AgileCRMapi.png)
+![Finding domain name, email and api key](https://raw.githubusercontent.com/fthirty/php-api/master/)
 
 
-2. Copy and paste the source / include the [**curlwrap_v2.php**](https://github.com/agilecrm/php-api/blob/master/CurlLib/curlwrap_v2.php) in your php code.
+2. Copy and paste the source / include the [**curlwrap_v2.php**](https://github.com/fthirty/php-api/blob/master/CurlLib/curlwrap_v2.php) in your php code.
 
 3. You need to provide 4 paramaters to the curl_wrap function. They are **$entity**, **$data**, **$method**, **$content-type**.
 
