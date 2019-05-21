@@ -1,7 +1,7 @@
 Fthirty CRM PHP API 
 =================
 
-[Fthirty CRM] (https://www.fthirty.com/) is a new breed CRM & Project Management Software.
+[Fthirty] (https://fthirty.com/) is a new breed CRM & Project Management Software.
 
 Table of contents
 ---------------
