@@ -69,12 +69,12 @@ Table of contents
 
 ## Intro
 
-1. Fill in your **FTHIRTY_DOMAIN**, **FTHIRTY_USER_EMAIL**, **FTHIRTY_REST_API_KEY** in [**curlwrap_v2.php**](https://github.com/fthirty/php-api/blob/master/CurlLib/curlwrap_v2.php).
+1. Fill in your **FTHIRTY_DOMAIN**, **FTHIRTY_USER_EMAIL**, **FTHIRTY_REST_API_KEY** in [**curlwrap.php**](https://github.com/fthirty/php-api/blob/master/CurlLib/curlwrap.php).
 
 ![Finding domain name, email and api key](https://raw.githubusercontent.com/fthirty/php-api/master/)
 
 
-2. Copy and paste the source / include the [**curlwrap_v2.php**](https://github.com/fthirty/php-api/blob/master/CurlLib/curlwrap_v2.php) in your php code.
+2. Copy and paste the source / include the [**curlwrap.php**](https://github.com/fthirty/php-api/blob/master/CurlLib/curlwrap.php) in your php code.
 
 3. You need to provide 4 paramaters to the curl_wrap function. They are **$entity**, **$data**, **$method**, **$content-type**.
 
@@ -129,7 +129,7 @@ $data = json_encode($data);
 ## Requirements
 
 - Two folder CurlLib and Tester
-- Can directly test Tester's any file after setting domain,email and api key of curlwrap_v2.php (CurlLib folder)
+- Can directly test Tester's any file after setting domain,email and api key of curlwrap.php (CurlLib folder)
 
 ## Usage
 
